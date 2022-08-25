@@ -1,0 +1,88 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Fächergruppe",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Geisteswissenschaften",
+                "Sport",
+                "Rechts- Wirtschafts-und  Sozialwissenschaften",
+                "Mathematik und Natruwissenschaften",
+                "Humanmedizin und Gesundheitswissenschaften",
+                "Agrar- Forst- Ernährungswissenschaften Veterinärmedizin",
+                "Ingenieurwissenschaften",
+                "Kunst und Kunstwissenschaften",
+                "Außerhalb der Studienbereichsgliederung",
+                "Fächergruppen zusammen",
+                ""
+              ]
+            },
+            "title": "Fächergruppe"
+          },
+          {
+            "name": "Nationalität",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Insgesamt",
+                "Deutsche",
+                "Ausländerinnen und Ausländer",
+                ""
+              ]
+            },
+            "title": "Nationalität"
+          },
+          {
+            "name": "Geschlecht",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Insgesamt",
+                "Männer",
+                "Frauen",
+                ""
+              ]
+            },
+            "title": "Geschlecht"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Anzahl",
+                "%",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-3-2",
+  "title": "Hochschulabschlüsse im Prüfungsjahr nach Fächergruppe, Nationalität und Geschlecht der Absolventinnen und Absolventen"
+}

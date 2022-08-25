@@ -1,0 +1,68 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Migrationsstatus der Familie",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Insgesamt",
+                "ohne Migrationshintergrund",
+                "mit Migrationshintergrund",
+                "dav. ein Partner mit Migrationshintergr.",
+                "dav. beide Partner mit Migrationshintergr.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Lebensform",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Insgesamt",
+                "Ehepaare",
+                "Lebensgemeinschaften",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "mit ledigen Kindern",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ohne ledige Kinder",
+                "Mit ledigen Kindern",
+                "1 Kind",
+                "2 Kinder",
+                "3 und mehr Kinder",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "7-1-1",
+  "title": "global_indicators.7-1-1-title"
+}

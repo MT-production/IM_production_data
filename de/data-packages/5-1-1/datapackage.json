@@ -1,0 +1,75 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Wirtschaftsabschnitte (WZ 2008) Zusammenfassungen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Land- und Forstwirtschaft  Fischerei",
+                "Bergbau und Gewinnung von Steinen und Erden; Verarbeitendes Gewerbe",
+                "Energieversorgung; Wasserversorgung  Entsorg.  Beseitig. v. Umweltverschmutzungen",
+                "Baugewerbe",
+                "Handel  Instandhaltung und Reparatur von Kfz",
+                "Verkehr und Lagerei; Information und Kommunikation",
+                "Gastgewerbe",
+                "Erbringung von Finanz- und Versicherungsleistungen; Grundstücks- und Wohnungswesen; Freiberufliche  wiss. u. techn. Dienstleistungen; sonst. wirt. Dienstleistungen",
+                "Öffentliche Verwaltung  Verteidigung  Sozialversicherung; Erziehung und Unterricht; Gesundheits- und Sozialwesen",
+                "Kunst  Unterhaltung und Erholung; Erbringung von sonstigen Dienstleistungen",
+                "Insgesamt (inkl. sonstiger Abschnitte)",
+                ""
+              ]
+            },
+            "title": "Wirtschaftsabschnitte (WZ 2008) Zusammenfassungen"
+          },
+          {
+            "name": "Geschlecht",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Insgesamt",
+                "Männer",
+                "Frauen",
+                ""
+              ]
+            },
+            "title": "Geschlecht"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "in 1000",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "5-1-1",
+  "title": "Erwerbstätige Menschen mit Zuwanderungsgeschichte in Niedersachsen nach Wirtschaftsabschnitten und Geschlecht"
+}

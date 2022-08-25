@@ -1,0 +1,58 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Gebietseinheit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Niedersachsen",
+                "Deutschland",
+                ""
+              ]
+            },
+            "title": "Gebietseinheit"
+          },
+          {
+            "name": "Kategorie",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Insgesamt bis unter 3 Jahre",
+                "Insgesamt 3 bis unter 6 Jahre",
+                "Kinder mit Migrationshintergrund bis unter 3 Jahre",
+                "Kinder mit Migrationshintergrund 3 bis unter 6 Jahre",
+                "Kinder ohne Migrationshintergrund bis unter 3 Jahre",
+                "Kinder ohne Migrationshintergrund 3 bis unter 6 Jahre",
+                ""
+              ]
+            },
+            "title": "Kategorie"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-1-1",
+  "title": "Betreuungsquote von Kindern bis unter 6 Jahren mit und ohne Zuwanderungsgeschichte in Kindertagesbetreuung"
+}

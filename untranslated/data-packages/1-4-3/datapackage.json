@@ -1,0 +1,65 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Land",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Europa insgesamt",
+                "Albanien",
+                "Bulgarien",
+                "Griechenland",
+                "Italien",
+                "Kosovo",
+                "Moldau   Republik",
+                "Polen",
+                "Rumänien",
+                "Russische Föderation",
+                "Serbien (ab 2008)",
+                "Spanien",
+                "Türkei",
+                "Ukraine",
+                "EU Staaten",
+                "Afrika insgesamt",
+                "Amerika insgesamt",
+                "Asien insgesamt",
+                "Afghanistan",
+                "Indien",
+                "Irak",
+                "Iran  Islamische Republik",
+                "Kasachstan",
+                "Libanon",
+                "Syrien   Arabische Republik",
+                "Australien und Ozeanien",
+                "Sonstige Ziele",
+                "Insgesamt",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-4-3",
+  "title": "global_indicators.1-4-3-title"
+}

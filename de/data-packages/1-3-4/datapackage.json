@@ -1,0 +1,100 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Herkunftsland",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Europa",
+                "Bulgarien",
+                "Frankreich",
+                "Griechenland",
+                "Italien",
+                "Kroatien",
+                "Niederlande",
+                "Österreich",
+                "Polen",
+                "Portugal",
+                "Rumänien",
+                "Spanien",
+                "Vereinigtes Königreich",
+                "Sonstiges Europa",
+                "Bosnien und Herzegowina",
+                "Kosovo",
+                "Russische Föderation",
+                "Serbien",
+                "Türkei",
+                "Ukraine",
+                "EU-Staaten",
+                "Afrika",
+                "Marokko",
+                "Ägypten Algerien Libyen Tunesien",
+                "Amerika",
+                "Asien Australien und Ozeanien",
+                "Irak",
+                "Iran",
+                "Kasachstan",
+                "Syrien",
+                "Afghanistan",
+                "Vietnam",
+                "Ohne Angabe",
+                "Insgesamt",
+                "Sowjetunion",
+                "Libanon",
+                ""
+              ]
+            },
+            "title": "Herkunftsland"
+          },
+          {
+            "name": "Migrationshintergrund",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Insgesamt",
+                "dav. Männer",
+                "dav. Frauen",
+                ""
+              ]
+            },
+            "title": "Migrationshintergrund"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "in 1000",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-3-4",
+  "title": "Menschen mit Migrationshintergrund nach Herkunftsland und Geschlecht (in 1000)"
+}
