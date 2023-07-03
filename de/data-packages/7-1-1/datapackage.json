@@ -48,23 +48,12 @@
             "constraints": {
               "enum": [
                 "Insgesamt",
-                "ohne ledige Kinder",
-                "mit ledigen Kindern",
+                "ohne Kinder",
+                "mit Kindern",
                 ""
               ]
             },
             "title": "mit oder ohne ledige Kinder"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "in 1 000",
-                ""
-              ]
-            },
-            "title": "Units"
           },
           {
             "name": "Value",
@@ -77,5 +66,5 @@
   ],
   "profile": "data-package",
   "name": "7-1-1",
-  "title": "Paare ohne Kinder und Familien nach Paar-Familientyp und Zuwanderungsgeschichte sowie Familien nach Zahl der Kinder (in 1000)"
+  "title": "Paare mit und ohne Kinder und Familien nach Paar-Familientyp und Zuwanderungsgeschichte"
 }
