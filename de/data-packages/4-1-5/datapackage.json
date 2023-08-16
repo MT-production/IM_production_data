@@ -16,28 +16,42 @@
             "title": "Jahr"
           },
           {
-            "name": "Migrationshintergrund",
+            "name": "Migrationsstatus",
             "type": "string",
             "constraints": {
               "enum": [
+                "mit und ohne Migrationshintergrund",
                 "ohne Migrationshintergrund",
                 "mit Migrationshintergrund",
                 ""
               ]
             },
-            "title": "Migrationshintergrund"
+            "title": "Migrationsstatus"
           },
           {
-            "name": "Migrationserfahrung",
+            "name": "Altersgruppe",
             "type": "string",
             "constraints": {
               "enum": [
-                "mit eigener Migrationserfahrung",
-                "ohne eigene Migrationserfahrung",
+                "18 - 25",
+                "25 - 65",
                 ""
               ]
             },
-            "title": "Migrationserfahrung"
+            "title": "Altersgruppe"
+          },
+          {
+            "name": "Bildungsstand",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Insgesamt",
+                "Frühe Schulabgänger/innen",
+                "Personen mit geringem Bildungsstand",
+                ""
+              ]
+            },
+            "title": "Bildungsstand"
           },
           {
             "name": "Geschlecht",
@@ -45,8 +59,8 @@
             "constraints": {
               "enum": [
                 "Insgesamt",
-                "Männer",
-                "Frauen",
+                "männlich",
+                "weiblich",
                 ""
               ]
             },
@@ -57,6 +71,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "1000",
                 "%",
                 ""
               ]
@@ -74,5 +89,5 @@
   ],
   "profile": "data-package",
   "name": "4-1-5",
-  "title": "Frühe Schulabgängerinnen und Schulabgänger nach Geschlecht, Zuwanderungsgeschichte und eigener Migrationserfahrung (in Prozent)"
+  "title": "Frühe Schulabgängerinnen und Schulabgänger sowie Personen mit niedrigem Bildungsstand nach Migrationsstatus und Geschlecht"
 }

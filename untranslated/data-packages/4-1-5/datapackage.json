@@ -15,10 +15,11 @@
             "type": "integer"
           },
           {
-            "name": "Migrationshintergrund",
+            "name": "Migrationsstatus",
             "type": "string",
             "constraints": {
               "enum": [
+                "mit und ohne Migrationshintergrund",
                 "ohne Migrationshintergrund",
                 "mit Migrationshintergrund",
                 ""
@@ -26,12 +27,24 @@
             }
           },
           {
-            "name": "Migrationserfahrung",
+            "name": "Altersgruppe",
             "type": "string",
             "constraints": {
               "enum": [
-                "mit eigener Migrationserfahrung",
-                "ohne eigene Migrationserfahrung",
+                "18 - 25",
+                "25 - 65",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Bildungsstand",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Insgesamt",
+                "Frühe Schulabgänger/innen",
+                "Personen mit geringem Bildungsstand",
                 ""
               ]
             }
@@ -42,8 +55,8 @@
             "constraints": {
               "enum": [
                 "Insgesamt",
-                "Männer",
-                "Frauen",
+                "männlich",
+                "weiblich",
                 ""
               ]
             }
@@ -53,6 +66,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "1000",
                 "%",
                 ""
               ]
