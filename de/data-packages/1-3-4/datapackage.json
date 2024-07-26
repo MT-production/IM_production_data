@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Jahr"
           },
           {
@@ -20,7 +20,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Europa",
                 ""
               ]
             },
@@ -31,7 +30,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Insgesamt",
                 ""
               ]
             },
@@ -42,7 +40,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "in 1000",
                 ""
               ]
             },
@@ -53,8 +50,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Aussagewert eingeschränkt, da der Zahlenwert statistisch relativ unsicher ist.",
-                "Nicht veröffentlicht, weil nicht ausreichend genau oder nicht repräsentativ.",
                 ""
               ]
             },
@@ -62,7 +57,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "string",
             "title": "Value"
           }
         ]
