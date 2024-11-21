@@ -20,18 +20,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Land- und Forstwirtschaft  Fischerei",
+                "Land- und Forstwirtschaft, Fischerei",
                 "Bergbau und Gewinnung von Steinen und Erden; Verarbeitendes Gewerbe",
-                "Energieversorgung; Wasserversorgung  Entsorg.  Beseitig. v. Umweltverschmutzungen",
+                "Energieversorgung; Wasserversorgung, Entsorg., Beseitig. v. Umweltverschmutzungen",
                 "Baugewerbe",
-                "Handel  Instandhaltung und Reparatur von Kfz",
+                "Handel, Instandhaltung und Reparatur von Kfz",
                 "Verkehr und Lagerei; Information und Kommunikation",
                 "Gastgewerbe",
-                "Erbringung von Finanz- und Versicherungsleistungen; Grundstücks- und Wohnungswesen; Freiberufliche  wiss. u. techn. Dienstleistungen; sonst. wirt. Dienstleistungen",
-                "ÖffentlicheVerwaltung  Verteidigung  Sozialversicherung; Erziehung und Unterricht; Gesundheits- und Sozialwesen",
-                "Kunst  Unterhaltung und Erholung; Erbringung von sonstigen Dienstleistungen",
+                "Erbringung von Finanz- und Versicherungsleistungen; Grundstücks- und Wohnungswesen; Freiberufliche, wiss. u. techn. Dienstleistungen; sonst. wirt. Dienstleistungen",
+                "ÖffentlicheVerwaltung, Verteidigung, Sozialversicherung; Erziehung und Unterricht; Gesundheits- und Sozialwesen",
+                "Kunst, Unterhaltung und Erholung; Erbringung von sonstigen Dienstleistungen",
                 "Insgesamt (inkl. sonstiger Abschnitte)",
-                "Öff.Verwaltung  Verteidigung  Sozialversicherung; Erziehung und Unterricht; Gesundheits- und Sozialwesen",
                 ""
               ]
             },
@@ -60,6 +59,18 @@
               ]
             },
             "title": "Units"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Statistisch unsicher",
+                "Gesperrt",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
           },
           {
             "name": "Value",

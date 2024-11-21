@@ -12,13 +12,61 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Herkunftsland",
             "type": "string",
             "constraints": {
               "enum": [
+                "Europa",
+                "Bulgarien",
+                "Italien",
+                "Kroatien",
+                "Polen",
+                "Rumänien",
+                "Spanien",
+                "Sonstiges Europa",
+                "Kosovo",
+                "Russische Föderation",
+                "Serbien",
+                "Türkei",
+                "Ukraine",
+                "EU Staaten",
+                "Afrika",
+                "Marokko",
+                "Amerika",
+                "Asien, Australien und Ozeanien",
+                "Afghanistan",
+                "Irak",
+                "Kasachstan",
+                "Syrien",
+                "Vietnam",
+                "Ohne Angaben, unbestimmt",
+                "Gebiet des ehemaligen Jugoslawien (nachrichtlich)",
+                "Gebiet der ehemaligen Sowjetunion (nachrichtlich)",
+                "Insgesamt",
+                "Frankreich",
+                "Griechenland",
+                "Niederlande",
+                "Österreich",
+                "Portugal",
+                "Vereinigtes Königreich",
+                "Bosnien und Herzegowina",
+                "Ägypten, Algerien, Libyen, Tunesien",
+                "Nordamerika",
+                "Vereinigte Staaten",
+                "Mittel- und Südamerika",
+                "Asien",
+                "Naher und Mittlerer Osten",
+                "Iran",
+                "Sonstiges Asien",
+                "China",
+                "Indien",
+                "Pakistan",
+                "Australien und Ozeanien",
+                "Unbestimmt",
+                "nachrichtlich:",
                 ""
               ]
             }
@@ -28,6 +76,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Insgesamt",
+                "Männer",
+                "Frauen",
                 ""
               ]
             }
@@ -37,6 +88,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "in 1000",
                 ""
               ]
             }
@@ -46,13 +98,15 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Aussagewert eingeschränkt, da der Zahlenwert statistisch relativ unsicher ist.",
+                "Nicht veröffentlicht, weil nicht ausreichend genau oder nicht repräsentativ.",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "number"
           }
         ]
       }
