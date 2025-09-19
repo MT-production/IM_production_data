@@ -1,32 +1,4 @@
 Year,Wanderungsziel,Value
-2008,Europa insgesamt,52345.0
-2008,Bulgarien,1232.0
-2008,Griechenland,1049.0
-2008,Italien,1359.0
-2008,"Moldau, Republik",31.0
-2008,Niederlande,1676.0
-2008,Österreich,1127.0
-2008,Polen,23944.0
-2008,Rumänien,3399.0
-2008,Russische Föderation,1646.0
-2008,Schweiz,1828.0
-2008,Serbien,193.0
-2008,Spanien,
-2008,Türkei,2159.0
-2008,Ukraine,451.0
-2008,Ungarn,2415.0
-2008,"Vereinigtes Königreich, No",1434.0
-2008,EU Staaten,44373.0
-2008,Afrika insgesamt,1598.0
-2008,Amerika insgesamt,5228.0
-2008,Vereinigte Staaten,1972.0
-2008,Asien insgesamt,5596.0
-2008,China,1235.0
-2008,Australien und Ozeanien,608.0
-2008,Sonstige Ziele,2739.0
-2008,unbekanntes Ausland,225.0
-2008,ohne Angabe,8.0
-2008,Insgesamt,68114.0
 2009,Europa insgesamt,51736.0
 2009,Bulgarien,1841.0
 2009,Griechenland,954.0
@@ -39,11 +11,11 @@ Year,Wanderungsziel,Value
 2009,Russische Föderation,1189.0
 2009,Schweiz,1510.0
 2009,Serbien,717.0
-2009,Spanien,1486.0
+2009,Spanien,
 2009,Türkei,2076.0
 2009,Ukraine,293.0
 2009,Ungarn,2632.0
-2009,"Vereinigtes Königreich, No",1435.0
+2009,Vereinigtes Königreich,1435.0
 2009,EU Staaten,44947.0
 2009,Afrika insgesamt,1348.0
 2009,Amerika insgesamt,4375.0
@@ -71,7 +43,7 @@ Year,Wanderungsziel,Value
 2010,Türkei,1817.0
 2010,Ukraine,242.0
 2010,Ungarn,2054.0
-2010,"Vereinigtes Königreich, No",1176.0
+2010,Vereinigtes Königreich,1176.0
 2010,EU Staaten,41807.0
 2010,Afrika insgesamt,1208.0
 2010,Amerika insgesamt,4047.0
@@ -99,7 +71,7 @@ Year,Wanderungsziel,Value
 2011,Türkei,1727.0
 2011,Ukraine,293.0
 2011,Ungarn,2534.0
-2011,"Vereinigtes Königreich, No",1276.0
+2011,Vereinigtes Königreich,1276.0
 2011,EU Staaten,47208.0
 2011,Afrika insgesamt,1259.0
 2011,Amerika insgesamt,4034.0
@@ -127,7 +99,7 @@ Year,Wanderungsziel,Value
 2012,Türkei,1743.0
 2012,Ukraine,261.0
 2012,Ungarn,2651.0
-2012,"Vereinigtes Königreich, No",1177.0
+2012,Vereinigtes Königreich,1177.0
 2012,EU Staaten,50761.0
 2012,Afrika insgesamt,1257.0
 2012,Amerika insgesamt,3832.0
@@ -155,7 +127,7 @@ Year,Wanderungsziel,Value
 2013,Türkei,1809.0
 2013,Ukraine,252.0
 2013,Ungarn,3419.0
-2013,"Vereinigtes Königreich, No",1227.0
+2013,Vereinigtes Königreich,1227.0
 2013,EU Staaten,55590.0
 2013,Afrika insgesamt,1355.0
 2013,Amerika insgesamt,3847.0
@@ -183,7 +155,7 @@ Year,Wanderungsziel,Value
 2014,Türkei,1821.0
 2014,Ukraine,284.0
 2014,Ungarn,3489.0
-2014,"Vereinigtes Königreich, No",1531.0
+2014,Vereinigtes Königreich,1531.0
 2014,EU Staaten,61810.0
 2014,Afrika insgesamt,2023.0
 2014,Amerika insgesamt,4067.0
@@ -211,7 +183,7 @@ Year,Wanderungsziel,Value
 2015,Türkei,1644.0
 2015,Ukraine,317.0
 2015,Ungarn,2997.0
-2015,"Vereinigtes Königreich, No",1497.0
+2015,Vereinigtes Königreich,1497.0
 2015,EU Staaten,58568.0
 2015,Afrika insgesamt,2438.0
 2015,Amerika insgesamt,3859.0
@@ -239,7 +211,7 @@ Year,Wanderungsziel,Value
 2016,Türkei,1926.0
 2016,Ukraine,478.0
 2016,Ungarn,3035.0
-2016,"Vereinigtes Königreich, No",1339.0
+2016,Vereinigtes Königreich,1339.0
 2016,EU Staaten,68721.0
 2016,Afrika insgesamt,6689.0
 2016,Amerika insgesamt,4286.0
@@ -267,7 +239,7 @@ Year,Wanderungsziel,Value
 2017,Türkei,1636.0
 2017,Ukraine,708.0
 2017,Ungarn,2765.0
-2017,"Vereinigtes Königreich, No",1090.0
+2017,Vereinigtes Königreich,1090.0
 2017,EU Staaten,62569.0
 2017,Afrika insgesamt,4200.0
 2017,Amerika insgesamt,3611.0
@@ -295,7 +267,7 @@ Year,Wanderungsziel,Value
 2018,Türkei,1901.0
 2018,Ukraine,683.0
 2018,Ungarn,2578.0
-2018,"Vereinigtes Königreich, No",1193.0
+2018,Vereinigtes Königreich,1193.0
 2018,EU Staaten,69033.0
 2018,Afrika insgesamt,2701.0
 2018,Amerika insgesamt,3577.0
@@ -323,7 +295,7 @@ Year,Wanderungsziel,Value
 2019,Türkei,1769.0
 2019,Ukraine,1070.0
 2019,Ungarn,2332.0
-2019,"Vereinigtes Königreich, No",1200.0
+2019,Vereinigtes Königreich,1200.0
 2019,EU Staaten,71647.0
 2019,Afrika insgesamt,2560.0
 2019,Amerika insgesamt,3820.0
@@ -351,7 +323,7 @@ Year,Wanderungsziel,Value
 2020,Türkei,1395.0
 2020,Ukraine,752.0
 2020,Ungarn,2020.0
-2020,"Vereinigtes Königreich, No",887.0
+2020,Vereinigtes Königreich,887.0
 2020,EU Staaten,55071.0
 2020,Afrika insgesamt,2013.0
 2020,Amerika insgesamt,2624.0
@@ -379,7 +351,7 @@ Year,Wanderungsziel,Value
 2021,Türkei,1528.0
 2021,Ukraine,762.0
 2021,Ungarn,1805.0
-2021,"Vereinigtes Königreich, No",773.0
+2021,Vereinigtes Königreich,773.0
 2021,EU Staaten,54312.0
 2021,Afrika insgesamt,1798.0
 2021,Amerika insgesamt,2496.0
@@ -407,7 +379,7 @@ Year,Wanderungsziel,Value
 2022,Türkei,1964.0
 2022,Ukraine,16321.0
 2022,Ungarn,1741.0
-2022,"Vereinigtes Königreich, No",949.0
+2022,Vereinigtes Königreich,949.0
 2022,EU Staaten,55723.0
 2022,Afrika insgesamt,2218.0
 2022,Amerika insgesamt,4054.0
@@ -435,7 +407,7 @@ Year,Wanderungsziel,Value
 2023,Türkei,3186.0
 2023,Ukraine,16316.0
 2023,Ungarn,1578.0
-2023,"Vereinigtes Königreich, No",796.0
+2023,Vereinigtes Königreich,796.0
 2023,EU Staaten,55549.0
 2023,Afrika insgesamt,2894.0
 2023,Amerika insgesamt,4716.0
@@ -447,3 +419,31 @@ Year,Wanderungsziel,Value
 2023,unbekanntes Ausland,1816.0
 2023,ohne Angabe,16291.0
 2023,Insgesamt,117610.0
+2024,Europa insgesamt,82798.0
+2024,Bulgarien,6531.0
+2024,Griechenland,1287.0
+2024,Italien,2060.0
+2024,"Moldau, Republik",2074.0
+2024,Niederlande,1442.0
+2024,Österreich,1090.0
+2024,Polen,13069.0
+2024,Rumänien,23676.0
+2024,Russische Föderation,976.0
+2024,Schweiz,1294.0
+2024,Serbien,1187.0
+2024,Spanien,2097.0
+2024,Türkei,3437.0
+2024,Ukraine,9664.0
+2024,Ungarn,1683.0
+2024,Vereinigtes Königreich,715.0
+2024,EU Staaten,59836.0
+2024,Afrika insgesamt,3120.0
+2024,Amerika insgesamt,4734.0
+2024,Vereinigte Staaten,1655.0
+2024,Asien insgesamt,7068.0
+2024,China,1262.0
+2024,Australien und Ozeanien,481.0
+2024,Sonstige Ziele,18619.0
+2024,unbekanntes Ausland,971.0
+2024,ohne Angabe,17648.0
+2024,Insgesamt,116820.0

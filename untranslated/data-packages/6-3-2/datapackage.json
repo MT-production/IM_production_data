@@ -21,7 +21,7 @@
               "enum": [
                 "Insgesamt",
                 "Kein Haushaltsmitglied hat einen Migrationshintergrund",
-                "Ein Teil der Haushaltsmitglieder hat einen Migrationshintergrund",
+                "Ein Teil der Haushaltsmitglieder hat einen Migraitonshintergrund",
                 "Alle Haushaltsmitglieder haben einen Migrationshintergrund",
                 ""
               ]
@@ -70,7 +70,7 @@
             "constraints": {
               "enum": [
                 "gesperrt",
-                "Statistisch unsicher",
+                "statistisch unsicher",
                 ""
               ]
             }
