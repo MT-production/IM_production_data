@@ -979,9 +979,6 @@
                 "männlich",
                 "weiblich",
                 "insgesamt",
-                "Männlich",
-                "Weiblich",
-                "Insgesamt",
                 ""
               ]
             },
@@ -997,7 +994,6 @@
                 "völkerrechtliche, humanitäre, politische Gründe",
                 "familiäre Gründe",
                 "besondere Aufenthaltsrechte",
-                "völker-rechtliche, humanitäre, politische Gründe",
                 ""
               ]
             },
@@ -2420,9 +2416,6 @@
                 "männlich",
                 "weiblich",
                 "insgesamt",
-                "Männlich",
-                "Weiblich",
-                "Insgesamt",
                 ""
               ]
             },
@@ -3590,7 +3583,7 @@
           }
         ]
       },
-      "title": "Haushalte nach Haushaltsgröße, Migrationsstatus und Haushaltsnettoeinkommen"
+      "title": "Haushalte nach Haushaltsgröße, Migrationsstatus und Haushaltsnettoeinkommen (in 1000)"
     },
     {
       "path": "4-1-4/data.csv",
@@ -3835,7 +3828,7 @@
           }
         ]
       },
-      "title": "Paare mit und ohne Kinder und Familien nach Paar-Familientyp und Zuwanderungsgeschichte"
+      "title": "Paare mit und ohne Kinder und Familien nach Paar-Familientyp und Zuwanderungsgeschichte (in 1000)"
     },
     {
       "path": "1-2-7/data.csv",
@@ -4891,14 +4884,24 @@
                 "Insgesamt",
                 "Männer",
                 "Frauen",
-                "15 bis unter 20 Jahre",
-                "16 bis unter 20 Jahre",
-                "20 bis unter 25 Jahre",
-                "21 bis unter 25 Jahre",
                 ""
               ]
             },
             "title": "Geschlecht"
+          },
+          {
+            "name": "Altersgruppe",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Insgesamt",
+                "15 bis unter 20 Jahre",
+                "16 bis unter 20 Jahre",
+                "20 bis unter 25 Jahre",
+                ""
+              ]
+            },
+            "title": "Altersgruppe"
           },
           {
             "name": "Units",
@@ -5725,8 +5728,6 @@
               "enum": [
                 "Aufenthaltsrecht nach FreizügG/EU",
                 "von Erfordernis eines Aufenthaltstitels befreit, heimatlose Ausländerinnen und Ausländer",
-                "Anteil der Ausländerinnen und Aulsänder mit Aufenthaltsrecht nach FreizügG/EU",
-                "Anteil der Ausländerinnen und Ausländer die von Erfordernis eines Aufenthaltstitels befreit sind und heimatlose Ausländer",
                 ""
               ]
             },
@@ -5737,8 +5738,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Anzahl",
                 "Prozent",
+                "Anzahl",
                 ""
               ]
             },
