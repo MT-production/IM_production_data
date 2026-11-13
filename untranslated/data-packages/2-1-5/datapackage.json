@@ -80,7 +80,7 @@
               "enum": [
                 "männlich",
                 "weiblich",
-                "Insgesamt",
+                "insgesamt",
                 ""
               ]
             }
@@ -90,14 +90,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Insgesamt",
+                "insgesamt",
                 "Duldung",
                 "Aufenthaltsgestattung",
                 "Ohne Duldung oder Gestattung",
-                "Anteil der Ausländerinnen und Ausländer ohne Aufenthaltstite",
-                "Anteil der Ausländerinnen und Ausländer mit einer Duldung",
-                "Anteil der Ausländerinnen und Ausländer  Aufenthaltsgestattung",
-                "Anteil der Ausländerinnen und Ausländer ohne Duldung oder Gestattung",
                 ""
               ]
             }
