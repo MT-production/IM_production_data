@@ -185,6 +185,11 @@
             "constraints": {
               "enum": [
                 "insgesamt",
+                "Einpersonenhaushalte",
+                "2 Personen",
+                "3 Personen",
+                "4 Personen",
+                "5 und mehr Personen",
                 ""
               ]
             },
@@ -2105,13 +2110,14 @@
                 "Geisteswissenschaften",
                 "Sport",
                 "Rechts-, Wirtschafts-, Sozialwissenschaften",
-                "Mathematik, Naturwissenschaften",
+                "Mathematik, Natruwissenschaften",
                 "Humanmedizin, Gesundheitswissenschaften",
                 "Agrar-, Forst-, Ernährungswissenschaften, Veterinärmedizin",
                 "Ingenieurwissenschaften",
                 "Kunst, Kunstwissenschaften",
                 "Außerhalb der Studienbereichsgliederung",
-                "Fächergruppen zusammen",
+                "Fächerguppen zusammen",
+                "Mathematik, Naturwissenschaften",
                 ""
               ]
             },
@@ -5541,7 +5547,7 @@
               "enum": [
                 "Insgesamt",
                 "Frühe Schulabgänger/innen",
-                "Personen mit geringem Bildudngsstand",
+                "Personen mit geringem Bildungsstand",
                 ""
               ]
             },
