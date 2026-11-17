@@ -1964,7 +1964,7 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
@@ -1992,14 +1992,13 @@
                 "Geisteswissenschaften",
                 "Sport",
                 "Rechts-, Wirtschafts-, Sozialwissenschaften",
-                "Mathematik, Natruwissenschaften",
+                "Mathematik, Naturwissenschaften",
                 "Humanmedizin, Gesundheitswissenschaften",
                 "Agrar-, Forst-, Ernährungswissenschaften, Veterinärmedizin",
                 "Ingenieurwissenschaften",
                 "Kunst, Kunstwissenschaften",
                 "Außerhalb der Studienbereichsgliederung",
                 "Fächerguppen zusammen",
-                "Mathematik, Naturwissenschaften",
                 ""
               ]
             }
@@ -5206,17 +5205,6 @@
             }
           },
           {
-            "name": "Altersgruppe",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "18 - 25",
-                "25 - 65",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Bildungsstand",
             "type": "string",
             "constraints": {
@@ -5224,6 +5212,17 @@
                 "Insgesamt",
                 "Frühe Schulabgänger/innen",
                 "Personen mit geringem Bildungsstand",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Altersgruppe",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "18 - 25",
+                "25 - 65",
                 ""
               ]
             }
